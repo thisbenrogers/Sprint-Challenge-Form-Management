@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+
 import TOS from './TOS';
 
 it('renders without crashing', () => {

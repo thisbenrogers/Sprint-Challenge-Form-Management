@@ -5,6 +5,8 @@ import axios from 'axios';
 
 const LoginForm = ({ errors, touched, isSubmitting }) => {
 
+  console.log("isSubmitting: ", isSubmitting);
+
   return (
     <div className="loginForm">
       <Form>
